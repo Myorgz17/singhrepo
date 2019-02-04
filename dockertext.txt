@@ -1,0 +1,11 @@
+ yum install docker -y
+  218  docker --version
+  219  docker images
+  220  docker run hello-world
+docker push devopstrainer/myrepo:v1.0
+
+
+docker volume
+docker run -it --name test1 -v datavol:/data ubuntu
+docker volume ls
+docker volume inspect voluname
